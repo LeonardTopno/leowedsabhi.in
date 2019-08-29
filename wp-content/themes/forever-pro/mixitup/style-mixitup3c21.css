@@ -1,0 +1,33 @@
+/* MIXTITUP PORTFOLIO */
+
+.portfoliowrap	{ overflow:visible;position:relative; margin-left: 0; }
+.portfolio		{ overflow:visible !important; position:relative; }
+.portfolio img	{ width:100%; max-width:none !important; height:auto; display:block;}
+.threecol .entry	{ width:393px; float:left;overflow:visible;position:relative; }
+.fourcol .entry	{ width:25%; float:left;overflow:visible;position:relative; }
+.fivecol .entry	{ width:275px; float:left;overflow:visible;position:relative; }
+
+ul.portfoliofilter{ margin:0; padding:0; margin-bottom:50px; margin-top:30px; width:100%; padding-bottom:0px; text-align:center; font-weight:bold; color:#444444;}
+ul.portfoliofilter li { display: inline-block; margin:0px 6px 15px; font-weight:bold; font-family:'Assistant'; color:#ffffff; text-transform:none;font-weight:700; font-size:14px; line-height:30px; text-shadow:none !important; -webkit-box-shadow:none !important; -moz-box-shadow:none !important; box-shadow:none !important; padding:4px 20px ; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-order-sizing:border-box; text-transform:uppercase; background-color:#353535; color:#ffffff; transition:0.5s; -moz-transition:0.5s; -webkit-transition:0.5s; -o-transition:0.5s; }
+
+ul.portfoliofilter li:hover, ul.portfoliofilter li a:hover  { cursor:pointer; color: #ffffff; border-radius:5px; background-color: #037df0; }
+ul.portfoliofilter li.active { background-color: #037df0; color: #ffffff; border-radius:5px; }
+
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope,
+.mix { -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s;}
+.isotope { -webkit-transition-property: height, width; -moz-transition-property: height, width; transition-property: height, width; margin-top:60px; }
+.mix{ -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity; transition-property: transform, opacity; }
+
+
+.holderwrap { position:relative; -moz-box-sizing: border-box; box-sizing:border-box; -webkit-order-sizing:border-box; }
+.holderwrap h5{ display:none; }
+
+
+.controls {display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
+.controls li { margin-left: 20px; cursor: pointer; list-style-type: square; }
+.controls li.active { font-weight: 700; }
+#mixitup { width: auto; text-align: center; font-size: 0.1px; }
+#mixitup .mix { display: none; opacity: 0; width:33%; vertical-align: top; font-size: 30px; text-align: center; -webkit-transition: ease; margin:0 0 20px; }
+#mixitup .mix img{ 	display:block; width:100%; height:auto; }
